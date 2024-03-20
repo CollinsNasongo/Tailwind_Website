@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .dark-theme {
+        background-color: #07273b;
+    }
+
+    .nunito {
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+    .dk-blue {
+        background-color: #07273b;
+    }
+
+    .foot-col {
+        background-color: #1A202C;
+    }
+
+    .but-hov {
+        background-color: rgb(232, 240, 254);
+    }
+
+    .words {
+        color: #C9D1D9;
+    }
+
+    .bug-fill {
+        fill: #C9D1D9
+    }
+
+    .form-border {
+        border: solid 1px #07273b;
+    }
+
+    .display-none {
+        @apply hidden;
+    }
+    
+}
