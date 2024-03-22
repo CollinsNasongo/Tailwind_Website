@@ -1,6 +1,6 @@
 # Tailwind CSS practice project
 
-This project contains a web scraper that retrieves news articles and data from a website.
+Just testing my tailwindcss skills
 
 ## Table of Contents
 
