@@ -41,5 +41,9 @@
     .display-none {
         @apply hidden;
     }
+
+    .menu-border {
+        border: solid 1px #C9D1D9;
+    }
     
 }
