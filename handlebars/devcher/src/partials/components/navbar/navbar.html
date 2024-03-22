@@ -1,0 +1,41 @@
+<nav class="flex flex-row justify-between items-center">
+    <div class="flex flex-row justify-start items-center gap-16">
+        <!-- Logo -->
+            <div class="max-w-14 h-auto border-solid border border-black rounded-full flex justify-center">
+                <a href="">
+                    <img src="./img/logo-300x300.png" alt="Devcher logo" height="300" width="300" class="w-11 h-auto">
+                </a>
+            </div>
+
+        <!-- Links -->
+            <div class=" hidden lg:block">
+                <div class="flex flex-row items-center justify-between">
+                    <div class="py-1 px-6 mr-3">
+                        <a href="" class="hover:underline">🤷🏽‍♀️ For Instructors</a>
+                    </div>
+                    <div class="py-1 px-6 mr-3">
+                        <a href="" class="hover:underline">🎊 Upcoming classes</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="flex flex-row justify-end lg:gap-9 items-center w-1/6 lg:w-2/5">
+        <!-- Light/dark -->
+        {{>light_dark}}
+        
+        <!-- Merch Store -->
+        <div class="hidden lg:block">
+            <a href="" class="hover:underline">
+                <span role="img" aria-label="Shopping emoji">🛍</span>
+                Merch Store
+            </a>       
+        </div>
+    
+        <!-- Sign up -->
+        {{>sign_in}}
+    
+        <!-- Burger -->
+        {{>burger}}
+    </div>
+</nav>

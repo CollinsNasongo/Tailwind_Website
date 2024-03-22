@@ -1,0 +1,35 @@
+<section class=" w-full h-auto bg-orange-100 p-14 dark:bg-gray-800">
+    <h2 class="text-4xl font-bold text-wrap text-left text-gray-800 dark:text-white">
+        Frequently asked questions
+    </h2>
+    
+    <section class="text-gray-800 grid grid-cols-1 lg:grid-cols-3  gap-2 dark:text-white">
+        {{#each faqs}}
+        <div class="w-full h-auto lg:w-11/12">
+            <h3 class="mx-auto text-2xl font-bold text-left my-4">
+                {{question}}  
+            </h3>
+            <p class="text-left">
+                {{answer}} 
+            </p>
+        </div>
+        {{/each}}
+    </section>
+
+    <section class="w-full my-28">
+        <figure>
+            <img src="./img/classroom-hashtags-316x179.png" alt="Classroom Hashtags" class="mx-auto">
+        </figure>
+        <section class="flex flex-row justify-center">
+            <a href="" class="m-2">
+                <img src="./img/twitter.png" alt="Twitter logo" class="w-6 h-auto">
+            </a>
+            <a href="" class="m-2">
+                <img src="./img/facebook.png" alt="Facebook logo" class="w-6 h-auto">
+            </a>
+        </section>
+        <p class="text-left text-sm sm:text-center text-gray-800 dark:text-white">
+            We’re social, and we don’t bite. Honestly, say hello!
+        </p>
+    </section>
+</section>
